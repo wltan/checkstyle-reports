@@ -1,0 +1,3331 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												fileExtensions
+												
+													<li>java, properties, xml</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												fileExtensions
+												
+													<li>java, properties, xml</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionFilter</td>
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FileTabCharacter</td>
+										
+										<td class="c">
+											
+												eachLine
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												eachLine
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LineLength</td>
+										
+										<td class="c">
+											
+												fileExtensions
+												
+													<li>java</li>
+												
+												<br/>
+											
+												max
+												
+													<li>100</li>
+												
+												<br/>
+											
+												ignorePattern
+												
+													<li>^package.*|^import.*|a href|href|http://|https://|ftp://</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileExtensions
+												
+													<li>java</li>
+												
+												<br/>
+											
+												max
+												
+													<li>100</li>
+												
+												<br/>
+											
+												ignorePattern
+												
+													<li>^package.*|^import.*|a href|href|http://|https://|ftp://</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">OuterTypeFilename</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">IllegalTokenText</td>
+										
+										<td class="c">
+											
+												format
+												
+													<li>\\u00(09|0(a|A)|0(c|C)|0(d|D)|22|27|5(C|c))|\\(0(10|11|12|14|15|42|47)|134)</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>STRING_LITERAL, CHAR_LITERAL</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Consider using special escape sequence instead of octal value or Unicode escaped value.</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												format
+												
+													<li>\\u00(09|0(a|A)|0(c|C)|0(d|D)|22|27|5(C|c))|\\(0(10|11|12|14|15|42|47)|134)</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>STRING_LITERAL, CHAR_LITERAL</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Consider using special escape sequence instead of octal value or Unicode escaped value.</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AvoidEscapedUnicodeCharacters</td>
+										
+										<td class="c">
+											
+												allowNonPrintableEscapes
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowByTailComment
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEscapesForControlCharacters
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNonPrintableEscapes
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowByTailComment
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEscapesForControlCharacters
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AvoidStarImport</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OneTopLevelClass</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoLineWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyBlock</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH</li>
+												
+												<br/>
+											
+												option
+												
+													<li>TEXT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH</li>
+												
+												<br/>
+											
+												option
+												
+													<li>TEXT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NeedBraces</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_DO, LITERAL_ELSE, LITERAL_FOR, LITERAL_IF, LITERAL_WHILE</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LeftCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF,                     INTERFACE_DEF, LAMBDA, LITERAL_CASE, LITERAL_CATCH, LITERAL_DEFAULT,                     LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, METHOD_DEF,                     OBJBLOCK, STATIC_INIT</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION_DEF, CLASS_DEF, CTOR_DEF, ENUM_CONSTANT_DEF, ENUM_DEF,                     INTERFACE_DEF, LAMBDA, LITERAL_CASE, LITERAL_CATCH, LITERAL_DEFAULT,                     LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY, LITERAL_FOR, LITERAL_IF,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_WHILE, METHOD_DEF,                     OBJBLOCK, STATIC_INIT</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">RightCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_CATCH, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE,                     LITERAL_DO</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlySame</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>LITERAL_TRY, LITERAL_CATCH, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE,                     LITERAL_DO</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlySame</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">RightCurly</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,                     INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+												option
+												
+													<li>alone</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, METHOD_DEF, CTOR_DEF, LITERAL_FOR, LITERAL_WHILE, STATIC_INIT,                     INSTANCE_INIT, ANNOTATION_DEF, ENUM_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+												option
+												
+													<li>alone</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												query
+												
+													<li>//RCURLY[parent::SLIST[count(./*)=1]                                                  or preceding-sibling::*[last()][self::LCURLY]]</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												query
+												
+													<li>//RCURLY[parent::SLIST[count(./*)=1]                                                  or preceding-sibling::*[last()][self::LCURLY]]</li>
+												
+												<br/>
+											
+												id
+												
+													<li>RightCurlyAlone</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">WhitespaceAround</td>
+										
+										<td class="c">
+											
+												allowEmptyConstructors
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notPreceded
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												allowEmptyLambdas
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEmptyMethods
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notFollowed
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not followed by whitespace. Empty blocks may only be represented as &#39;{}&#39; when not part of a multi-block statement (4.1.3)</li>
+												
+												<br/>
+											
+												allowEmptyLoops
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,                     BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,                     LCURLY, LE, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,                     LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED,                      LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,                      NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, RCURLY, SL, SLIST, SL_ASSIGN, SR,                      SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND</li>
+												
+												<br/>
+											
+												allowEmptyTypes
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowEmptyConstructors
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notPreceded
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												allowEmptyLambdas
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowEmptyMethods
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ws.notFollowed
+												
+													<li>WhitespaceAround: &#39;&#39;{0}&#39;&#39; is not followed by whitespace. Empty blocks may only be represented as &#39;{}&#39; when not part of a multi-block statement (4.1.3)</li>
+												
+												<br/>
+											
+												allowEmptyLoops
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>ASSIGN, BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,                     BXOR_ASSIGN, COLON, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,                     LCURLY, LE, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,                     LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED,                      LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,                      NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, RCURLY, SL, SLIST, SL_ASSIGN, SR,                      SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND</li>
+												
+												<br/>
+											
+												allowEmptyTypes
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OneStatementPerLine</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MultipleVariableDeclarations</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ArrayTypeStyle</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MissingSwitchDefault</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">FallThrough</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">UpperEll</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ModifierOrder</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyLineSeparator</td>
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                     STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowNoEmptyLineBetweenFields
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>PACKAGE_DEF, IMPORT, STATIC_IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                     STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>DOT</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapDot</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>DOT</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapDot</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapComma</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapComma</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ELLIPSIS</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapEllipsis</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ELLIPSIS</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapEllipsis</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ARRAY_DECLARATOR</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapArrayDeclarator</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ARRAY_DECLARATOR</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapArrayDeclarator</li>
+												
+												<br/>
+											
+												option
+												
+													<li>EOL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SeparatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>METHOD_REF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapMethodRef</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>METHOD_REF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>SeparatorWrapMethodRef</li>
+												
+												<br/>
+											
+												option
+												
+													<li>nl</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">PackageName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Package name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]+(\.[a-z][a-z0-9]*)*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Package name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]+(\.[a-z][a-z0-9]*)*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TypeName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MemberName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Member name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Member name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LambdaParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Lambda parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Lambda parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CatchParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Catch parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Catch parameter name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">LocalVariableName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Local variable name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Local variable name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z]([a-z0-9][a-zA-Z0-9]*)?$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ClassTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Class type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Class type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">InterfaceTypeParameterName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Interface type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Interface type name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>(^[A-Z][0-9]?)$|([A-Z][a-zA-Z0-9]*[T]$)</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoFinalizer</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">GenericWhitespace</td>
+										
+										<td class="c">
+											
+												ws.notPreceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.followed
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is followed by whitespace.</li>
+												
+												<br/>
+											
+												ws.preceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.illegalFollow
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; should followed by whitespace.</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												ws.notPreceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is not preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.followed
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is followed by whitespace.</li>
+												
+												<br/>
+											
+												ws.preceded
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; is preceded with whitespace.</li>
+												
+												<br/>
+											
+												ws.illegalFollow
+												
+													<li>GenericWhitespace &#39;&#39;{0}&#39;&#39; should followed by whitespace.</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">Indentation</td>
+										
+										<td class="c">
+											
+												throwsIndent
+												
+													<li>4</li>
+												
+												<br/>
+											
+												arrayInitIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												caseIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												basicOffset
+												
+													<li>2</li>
+												
+												<br/>
+											
+												braceAdjustment
+												
+													<li>0</li>
+												
+												<br/>
+											
+												lineWrappingIndentation
+												
+													<li>4</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												throwsIndent
+												
+													<li>4</li>
+												
+												<br/>
+											
+												arrayInitIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												caseIndent
+												
+													<li>2</li>
+												
+												<br/>
+											
+												basicOffset
+												
+													<li>2</li>
+												
+												<br/>
+											
+												braceAdjustment
+												
+													<li>0</li>
+												
+												<br/>
+											
+												lineWrappingIndentation
+												
+													<li>4</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF</li>
+												
+												<br/>
+											
+												ignoreFinal
+												
+													<li>false</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>0</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF</li>
+												
+												<br/>
+											
+												ignoreFinal
+												
+													<li>false</li>
+												
+												<br/>
+											
+												allowedAbbreviationLength
+												
+													<li>0</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OverloadMethodsDeclarationOrder</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">VariableDeclarationUsageDistance</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CustomImportOrder</td>
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>IMPORT, STATIC_IMPORT, PACKAGE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												separateLineBetweenGroups
+												
+													<li>true</li>
+												
+												<br/>
+											
+												sortImportsInGroupAlphabetically
+												
+													<li>true</li>
+												
+												<br/>
+											
+												customImportOrderRules
+												
+													<li>STATIC###THIRD_PARTY_PACKAGE</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>IMPORT, STATIC_IMPORT, PACKAGE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodParamPad</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF,                     SUPER_CTOR_CALL, ENUM_CONSTANT_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CTOR_DEF, LITERAL_NEW, METHOD_CALL, METHOD_DEF,                     SUPER_CTOR_CALL, ENUM_CONSTANT_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NoWhitespaceBefore</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA, SEMI, POST_INC, POST_DEC, DOT, ELLIPSIS, METHOD_REF</li>
+												
+												<br/>
+											
+												allowLineBreaks
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>COMMA, SEMI, POST_INC, POST_DEC, DOT, ELLIPSIS, METHOD_REF</li>
+												
+												<br/>
+											
+												allowLineBreaks
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">ParenPad</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION, ANNOTATION_FIELD_DEF, CTOR_CALL, CTOR_DEF, DOT, ENUM_CONSTANT_DEF,                     EXPR, LITERAL_CATCH, LITERAL_DO, LITERAL_FOR, LITERAL_IF, LITERAL_NEW,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_WHILE, METHOD_CALL,                     METHOD_DEF, QUESTION, RESOURCE_SPECIFICATION, SUPER_CTOR_CALL, LAMBDA</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>ANNOTATION, ANNOTATION_FIELD_DEF, CTOR_CALL, CTOR_DEF, DOT, ENUM_CONSTANT_DEF,                     EXPR, LITERAL_CATCH, LITERAL_DO, LITERAL_FOR, LITERAL_IF, LITERAL_NEW,                     LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_WHILE, METHOD_CALL,                     METHOD_DEF, QUESTION, RESOURCE_SPECIFICATION, SUPER_CTOR_CALL, LAMBDA</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">OperatorWrap</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>BAND, BOR, BSR, BXOR, DIV, EQUAL, GE, GT, LAND, LE, LITERAL_INSTANCEOF, LOR,                     LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF </li>
+												
+												<br/>
+											
+												option
+												
+													<li>NL</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>BAND, BOR, BSR, BXOR, DIV, EQUAL, GE, GT, LAND, LE, LITERAL_INSTANCEOF, LOR,                     LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF </li>
+												
+												<br/>
+											
+												option
+												
+													<li>NL</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AnnotationLocation</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationMostCases</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationMostCases</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AnnotationLocation</td>
+										
+										<td class="c">
+											
+												allowSamelineMultipleAnnotations
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationVariables</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												allowSamelineMultipleAnnotations
+												
+													<li>true</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>VARIABLE_DEF</li>
+												
+												<br/>
+											
+												id
+												
+													<li>AnnotationLocationVariables</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">NonEmptyAtclauseDescription</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">InvalidJavadocPosition</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocTagContinuationIndentation</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SummaryJavadoc</td>
+										
+										<td class="c">
+											
+												forbiddenSummaryFragments
+												
+													<li>^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												forbiddenSummaryFragments
+												
+													<li>^@return the *|^This method returns |^A [{]@code [a-zA-Z0-9]+[}]( is a )</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocParagraph</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">AtclauseOrder</td>
+										
+										<td class="c">
+											
+												tagOrder
+												
+													<li>@param, @return, @throws, @deprecated</li>
+												
+												<br/>
+											
+												target
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tagOrder
+												
+													<li>@param, @return, @throws, @deprecated</li>
+												
+												<br/>
+											
+												target
+												
+													<li>CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												allowMissingReturnTag
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMissingParamTags
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												allowMissingReturnTag
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowMissingParamTags
+												
+													<li>true</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MissingJavadocMethod</td>
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												minLineCount
+												
+													<li>2</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												scope
+												
+													<li>public</li>
+												
+												<br/>
+											
+												tokens
+												
+													<li>METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF</li>
+												
+												<br/>
+											
+												minLineCount
+												
+													<li>2</li>
+												
+												<br/>
+											
+												allowedAnnotations
+												
+													<li>Override, Test</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">MethodName</td>
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9_]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												name.invalidPattern
+												
+													<li>Method name &#39;&#39;{0}&#39;&#39; must match pattern &#39;&#39;{1}&#39;&#39;.</li>
+												
+												<br/>
+											
+												format
+												
+													<li>^[a-z][a-z0-9][a-zA-Z0-9_]*$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SingleLineJavadoc</td>
+										
+										<td class="c">
+											
+												ignoreInlineTags
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												ignoreInlineTags
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">EmptyCatchBlock</td>
+										
+										<td class="c">
+											
+												exceptionVariableName
+												
+													<li>expected</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												exceptionVariableName
+												
+													<li>expected</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">CommentsIndentation</td>
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>SINGLE_LINE_COMMENT, BLOCK_COMMENT_BEGIN</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												tokens
+												
+													<li>SINGLE_LINE_COMMENT, BLOCK_COMMENT_BEGIN</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathFilter</td>
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionxpathfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												file
+												
+													<li>${org.checkstyle.google.suppressionxpathfilter.config}</li>
+												
+												<br/>
+											
+												optional
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">3160</td>
+							<td id="totalBase">54538</td>
+							
+								<td id="warningSeverityNumBase">54538</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">3160</td>
+							<td id="totalPatch">54538 (7 removed, 7 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">54538 (7 removed, 7 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">7 files with differences</td>
+							<td id="totalDiff">14 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">14 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenTextCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleNumBase">157</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleNumBase">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleNumBase">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleNumBase">214</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleNumBase">232</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleNumBase">31591</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleNumBase">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleNumBase">1429</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumBase">681</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleNumBase">4</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenTextCheckModuleNumBase">4</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleNumBase">12991</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleNumBase">6</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleNumBase">6</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleNumBase">8</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleNumBase">8</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">401</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleNumBase">4658</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleNumBase">251</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheckModuleNumBase">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleNumBase">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleNumBase">286</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleNumBase">17</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleNumBase">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleNumBase">106</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleNumBase">709</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleNumBase">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleNumBase">5</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleNumBase">152</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleNumBase">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumBase">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleNumBase">421</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleNumBase">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleNumBase">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleNumBase">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleNumBase">47</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumBase">2</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleStatisticsPatch">157</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleStatisticsPatch">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleStatisticsPatch">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleStatisticsPatch">214</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleStatisticsPatch">232</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleStatisticsPatch">31591</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleStatisticsPatch">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleStatisticsPatch">1429</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleStatisticsPatch">681</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleStatisticsPatch">4</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenTextCheckModuleStatisticsPatch">4</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleStatisticsPatch">12991</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleStatisticsPatch">6</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleStatisticsPatch">6</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleStatisticsPatch">1 (7 removed)</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleStatisticsPatch">8</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleStatisticsPatch">401</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleStatisticsPatch">4658</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleStatisticsPatch">251</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheckModuleStatisticsPatch">25 (7 added)</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleStatisticsPatch">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleStatisticsPatch">286</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleStatisticsPatch">17</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleStatisticsPatch">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleStatisticsPatch">106</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleStatisticsPatch">709</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleStatisticsPatch">2</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleStatisticsPatch">5</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleStatisticsPatch">152</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleStatisticsPatch">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleStatisticsPatch">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleStatisticsPatch">421</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleStatisticsPatch">16</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleStatisticsPatch">14</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleStatisticsPatch">18</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleStatisticsPatch">47</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleStatisticsPatch">2</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.NoFinalizerCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.IllegalTokenTextCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ClassTypeParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheckModuleNumDiff">7</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheckModuleNumDiff">7</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.MethodTypeParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheckModuleNumDiff">0</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumDiff">0</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">7</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">7</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\android\guava-tests\test\com\google\common\graph\AbstractGraphTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L47">47</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L47">47</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\android\guava-tests\test\com\google\common\graph\AbstractNetworkTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L56">56</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L56">56</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\android\guava-tests\test\com\google\common\util\concurrent\JSR166TestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 63 has parse error. Details: no viable alternative at input &#39;(&#39; while parsing JAVADOC_INLINE_TAG</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L678">678</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 63 has parse error. Details: no viable alternative at input &#39;(&#39; while parsing JAVADOC_INLINE_TAG</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L678">678</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\guava-gwt\src-super\com\google\common\util\concurrent\super\com\google\common\util\concurrent\ListenableFuture.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 60 has parse error. Missed HTML close tag &#39;V&#39;. Sometimes it means that close tag missed for one of previous tags.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L28">28</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 60 has parse error. Missed HTML close tag &#39;V&#39;. Sometimes it means that close tag missed for one of previous tags.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L28">28</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\guava-tests\test\com\google\common\graph\AbstractGraphTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L47">47</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L47">47</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\guava-tests\test\com\google\common\graph\AbstractNetworkTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L56">56</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 49 has parse error. Details: no viable alternative at input &#39;&lt;N,&#39; while parsing HTML_ELEMENT</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L56">56</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle2\contribution\checkstyle-tester\repositories\guava\guava-tests\test\com\google\common\util\concurrent\JSR166TestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>NonEmptyAtclauseDescription</td>
+								<td>Javadoc comment at column 63 has parse error. Details: no viable alternative at input &#39;(&#39; while parsing JAVADOC_INLINE_TAG</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L685">685</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>AtclauseOrder</td>
+								<td>Javadoc comment at column 63 has parse error. Details: no viable alternative at input &#39;(&#39; while parsing JAVADOC_INLINE_TAG</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L685">685</a></td>
+								
+								
+									<td class="keepWidth"> </td>
+									
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
