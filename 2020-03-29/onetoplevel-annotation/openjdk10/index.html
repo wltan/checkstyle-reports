@@ -1,0 +1,2732 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">OneTopLevelClass</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">20004</td>
+							<td id="totalBase">1928</td>
+							
+								<td id="warningSeverityNumBase">1928</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">20004</td>
+							<td id="totalPatch">2049 (121 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">2049 (121 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">27 files with differences</td>
+							<td id="totalDiff">121 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">121 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleNumBase">1928</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleStatisticsPatch">2049 (121 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheckModuleNumDiff">121</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">121</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\Class\GenericStringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedGenericString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L86">86</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\Class\getEnclosingConstructor\EnclosingConstructorTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ConstructorDescriptor has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L99">99</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\Class\getEnclosingMethod\EnclosingMethodTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MethodDescriptor has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L86">86</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\AnnotationToStringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L219">219</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Classy has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L224">224</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class BooleanArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L229">229</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class FloatArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L234">234</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class DoubleArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L239">239</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ByteArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L244">244</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ShortArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L249">249</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class CharArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L254">254</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class IntArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L259">259</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class LongArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L264">264</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ClassArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L269">269</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class StringArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L274">274</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class EnumArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L279">279</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MostlyPrimitive has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L284">284</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\AnnotationWithLambda.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class LambdaWithParameter has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L64">64</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class LambdaWithoutParameter has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L72">72</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\EqualityTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TestAnnotation has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L52">52</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\ParameterAnnotations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Named has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L44">44</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\RecursiveAnnotation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Rat has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L44">44</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\TypeAnnotationReflection.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TypeAnno has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L640">640</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TypeAnno2 has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L646">646</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\TypeParamAnnotation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ParamAnno has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L110">110</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ParamAnno2 has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L116">116</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\UnitTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Point has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4643">4643</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ScalarTypes has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4647">4647</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ScalarTypesWithDefault has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4662">4662</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ArrayTypes has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4677">4677</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ArrayTypesWithDefault has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4692">4692</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Marker has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4707">4707</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberByte has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4709">4709</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberShort has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4710">4710</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberInt has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4711">4711</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberLong has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4712">4712</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberChar has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4713">4713</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberFloat has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4714">4714</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberDouble has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4715">4715</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberBoolean has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4716">4716</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4717">4717</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberClass has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4718">4718</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberEnum has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4719">4719</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberByteWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4721">4721</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberShortWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4722">4722</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberIntWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4723">4723</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberLongWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4724">4724</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberCharWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4725">4725</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberFloatWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4726">4726</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberDoubleWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4727">4727</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberBooleanWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4728">4728</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberStringWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4729">4729</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberClassWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4730">4730</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberEnumWithDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4731">4731</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberByteArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4733">4733</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberShortArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4734">4734</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberIntArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4735">4735</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberLongArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4736">4736</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberCharArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4737">4737</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberFloatArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4738">4738</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberDoubleArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4739">4739</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberBooleanArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4740">4740</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberStringArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4741">4741</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberClassArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4742">4742</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberEnumArray has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4743">4743</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberByteArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4745">4745</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberShortArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4746">4746</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberIntArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4747">4747</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberLongArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4748">4748</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberCharArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4749">4749</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberFloatArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4750">4750</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberDoubleArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4751">4751</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberBooleanArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4752">4752</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberStringArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4753">4753</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberClassArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4756">4756</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A76" href = "#A76">#A76</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class SingleMemberEnumArrayDef has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4759">4759</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A77" href = "#A77">#A77</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Foo has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4764">4764</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A78" href = "#A78">#A78</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Bar has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L4765">4765</a></td>
+								
+								
+									
+									<td class="keepWidth">12</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\repeatingAnnotations\InheritedAssociatedAnnotations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A79" href = "#A79">#A79</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedAssociated has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L61">61</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A80" href = "#A80">#A80</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Ann has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L67">67</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A81" href = "#A81">#A81</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AnnCont has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L75">75</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\annotation\repeatingAnnotations\OrderUnitTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A82" href = "#A82">#A82</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class FooContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A83" href = "#A83">#A83</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Foo has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L60">60</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\AnnotatedElement\TestAnnotatedElementDefaults.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A84" href = "#A84">#A84</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Missing has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L151">151</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A85" href = "#A85">#A85</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MissingRepeatable has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L158">158</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A86" href = "#A86">#A86</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MissingRepeatableContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L164">164</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A87" href = "#A87">#A87</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class DirectlyPresent has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L171">171</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A88" href = "#A88">#A88</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class IndirectlyPresent has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L178">178</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A89" href = "#A89">#A89</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class IndirectlyPresentContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L184">184</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A90" href = "#A90">#A90</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class DirectlyAndIndirectlyPresent has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L191">191</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A91" href = "#A91">#A91</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class DirectlyAndIndirectlyPresentContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L198">198</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A92" href = "#A92">#A92</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedDirectOnSuperClass has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L205">205</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A93" href = "#A93">#A93</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedDirectOnSuperClassContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L211">211</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A94" href = "#A94">#A94</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedIndirectOnSuperClass has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L218">218</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A95" href = "#A95">#A95</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedIndirectOnSuperClassContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L224">224</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A96" href = "#A96">#A96</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedDirectOnSuperClassIndirectOnSubclass has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L231">231</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A97" href = "#A97">#A97</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedDirectOnSuperClassIndirectOnSubclassContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L237">237</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A98" href = "#A98">#A98</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedIndirectOnSuperClassDirectOnSubclass has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L244">244</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A99" href = "#A99">#A99</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class AssociatedIndirectOnSuperClassDirectOnSubclassContainer has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L250">250</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Constructor\GenericStringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A100" href = "#A100">#A100</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedGenericString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A101" href = "#A101">#A101</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L113">113</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Constructor\TestParameterAnnotations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A102" href = "#A102">#A102</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Marker has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L98">98</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\DefaultStaticTest\DefaultStaticTestData.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A103" href = "#A103">#A103</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MethodDesc has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L326">326</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A104" href = "#A104">#A104</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MethodDescs has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L335">335</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Field\GenericStringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A105" href = "#A105">#A105</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L71">71</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Generics\Probe.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A106" href = "#A106">#A106</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Classes has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L130">130</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Generics\TestGenericReturnTypeToString.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A107" href = "#A107">#A107</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedGenericString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L129">129</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Method\GenericStringTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A108" href = "#A108">#A108</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedGenericString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L180">180</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A109" href = "#A109">#A109</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedString has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L186">186</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Method\IsDefaultTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A110" href = "#A110">#A110</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TestType4 has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L118">118</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A111" href = "#A111">#A111</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedIsDefault has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L171">171</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\Method\defaultMethodModeling\DefaultMethodModeling.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A112" href = "#A112">#A112</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class ExpectedModel has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L85">85</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\java\lang\reflect\annotationSharing\AnnotationSharing.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A113" href = "#A113">#A113</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Foo has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L191">191</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A114" href = "#A114">#A114</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Bar has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A115" href = "#A115">#A115</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Baz has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L199">199</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\tools\pack200\typeannos\Lambda.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A116" href = "#A116">#A116</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TA has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A117" href = "#A117">#A117</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class TB has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\tools\pack200\typeannos\TargetTypes.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A118" href = "#A118">#A118</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class T0x1C has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L42">42</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\openjdk10\test\tools\pack200\typeannos\TypeUseTarget.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A119" href = "#A119">#A119</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class MyAnnotation has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L56">56</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A120" href = "#A120">#A120</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class B has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L59">59</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A121" href = "#A121">#A121</a></td>
+								<td>warning</td>
+								<td>OneTopLevelClass</td>
+								<td>Top-level class Decl has to reside in its own source file.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L62">62</a></td>
+								
+								
+									
+									<td class="keepWidth">1</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
