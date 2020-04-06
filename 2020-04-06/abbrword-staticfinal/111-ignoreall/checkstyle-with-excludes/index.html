@@ -1,0 +1,2082 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+										</td>
+										
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												ignoreStatic
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ignoreFinal
+												
+													<li>true</li>
+												
+												<br/>
+											
+												ignoreStaticFinal
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										
+										<td> </td>
+										<td class="a">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">0</td>
+							<td id="totalBase">0</td>
+							
+								<td id="warningSeverityNumBase">0</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2176</td>
+							<td id="totalPatch">75 (75 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">75 (75 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">39 files with differences</td>
+							<td id="totalDiff">75 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">75 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">0</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleStatisticsPatch">75 (75 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">75</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">75</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\com\google\checkstyle\test\chapter2filebasic\rule231filetab\InputFileTabCharacter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L113">113</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\com\google\checkstyle\test\chapter3filestructure\rule332nolinewrap\InputLineLength.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L123">123</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\com\google\checkstyle\test\chapter4formatting\rule44columnlimit\InputLineLength.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L123">123</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\com\google\checkstyle\test\chapter5naming\rule53camelcase\InputAbbreviationAsWordInTypeNameCheck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XMLHTTPRequest&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XMLHTTPRequest&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L63">63</a></td>
+								
+								
+									
+									<td class="keepWidth">14</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XMLHTTPRequest&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L73">73</a></td>
+								
+								
+									
+									<td class="keepWidth">18</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameAnnotation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ANNOTATION&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">16</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameAnnotationField.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ANNOTATION_FIELD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">12</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameClass.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CLASS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">11</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameEnum.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ENUMERATION&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameField.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FIELD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">9</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameInterface.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;INTERFACE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">15</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameMethod.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameParameter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PARAMETER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L5">5</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\it\resources\org\checkstyle\suppressionxpathfilter\abbreviationaswordinname\SuppressionXpathRegressionAbbreviationAsWordInNameVariable.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VARIABLE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L6">6</a></td>
+								
+								
+									
+									<td class="keepWidth">13</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\main\java\com\puppycrawl\tools\checkstyle\checks\metrics\JavaNCSSCheck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;JavaNCSSCheck&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L92">92</a></td>
+								
+								
+									
+									<td class="keepWidth">14</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\java\com\puppycrawl\tools\checkstyle\checks\metrics\JavaNCSSCheckTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;JavaNCSSCheckTest&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L40">40</a></td>
+								
+								
+									
+									<td class="keepWidth">14</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\javadoc\abstractjavadoc\InputAbstractJavadocPosition.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;AAAAA&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L129">129</a></td>
+								
+								
+									
+									<td class="keepWidth">15</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;BBBBB&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L133">133</a></td>
+								
+								
+									
+									<td class="keepWidth">40</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CCCCC&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L136">136</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;DDDDD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L139">139</a></td>
+								
+								
+									
+									<td class="keepWidth">60</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;EEEEE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L142">142</a></td>
+								
+								
+									
+									<td class="keepWidth">60</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;AAAAAA&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L149">149</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;BBBBBB&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L160">160</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CCCCCC&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L172">172</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;DDDDDD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L183">183</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;EEEEEE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;AAAAAAA&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L207">207</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;BBBBBBB&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L214">214</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CCCCCCC&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L222">222</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\javadoc\abstractjavadoc\InputAbstractJavadocPositionWithSinglelineComments.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VVVVV&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L129">129</a></td>
+								
+								
+									
+									<td class="keepWidth">15</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;NNNNN&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L133">133</a></td>
+								
+								
+									
+									<td class="keepWidth">40</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XXXXX&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L136">136</a></td>
+								
+								
+									
+									<td class="keepWidth">44</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ZZZZZ&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L139">139</a></td>
+								
+								
+									
+									<td class="keepWidth">61</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;YYYYY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L142">142</a></td>
+								
+								
+									
+									<td class="keepWidth">61</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VVVVVV&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L149">149</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;NNNNNN&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L160">160</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XXXXXX&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L172">172</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ZZZZZZ&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L183">183</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;YYYYYY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">7</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VVVVVVV&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L207">207</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;NNNNNNN&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L214">214</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;XXXXXXX&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L222">222</a></td>
+								
+								
+									
+									<td class="keepWidth">6</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\abbreviationaswordinname\InputAbbreviationAsWordInNameOverridableMethod.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;serialNUMBER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L6">6</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;oveRRRRRrriddenMethod&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L22">22</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\abbreviationaswordinname\InputAbbreviationAsWordInNameType.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FactoryWithBADNAme&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L9">9</a></td>
+								
+								
+									
+									<td class="keepWidth">16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;AbstractCLASSName&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L12">12</a></td>
+								
+								
+									
+									<td class="keepWidth">16</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;AbstractINNERRClass&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L32">32</a></td>
+								
+								
+									
+									<td class="keepWidth">11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;WellNamedFACTORY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L37">37</a></td>
+								
+								
+									
+									<td class="keepWidth">11</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;marazmaticMETHODName&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L38">38</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;marazmaticVARIABLEName&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L39">39</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;MARAZMATICVariableName&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L40">40</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;serialNUMBER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\catchparametername\InputCatchParameterNameSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\constantname\InputConstantNameSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\localfinalvariablename\InputLocalFinalVariableName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\localvariablename\InputLocalVariableName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\membername\InputMemberNameSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\methodname\InputMethodNameEqualClassName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PRIVATEInputMethodNameEqualClassName&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L17">17</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\methodname\InputMethodNameOverriddenMethods.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PROTECTEDfoo&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L11">11</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PUBLICfoo&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L17">17</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PROTECTEDfoo&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L20">20</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\methodname\InputMethodNameSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\packagename\InputPackageNameSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\parametername\InputParameterName.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File29.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\naming\staticvariablename\InputStaticVariableName1.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File30.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\sizes\filelength\InputFileLength.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File31.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\sizes\linelength\InputLineLengthSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File32.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\sizes\methodlength\InputMethodLengthSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File33.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\sizes\outertypenumber\InputOuterTypeNumberSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File34.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\sizes\parameternumber\InputParameterNumberSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File35.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\todocomment\InputTodoCommentSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File36.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\whitespace\filetabcharacter\InputFileTabCharacterSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File37.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\whitespace\whitespaceafter\InputWhitespaceAfterDefaultConfig.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File38.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle-with-excludes\src\test\resources\com\puppycrawl\tools\checkstyle\checks\whitespace\whitespacearound\InputWhitespaceAroundSimple.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ALL_UPPERCASE_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File39.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">10</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
