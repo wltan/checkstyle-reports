@@ -1,0 +1,1917 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">AbbreviationAsWordInName</td>
+										<td class="b">
+											
+										</td>
+										
+										
+										<td class="a">
+											
+												ignoreStaticFinal
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">225</td>
+							<td id="totalBase">73</td>
+							
+								<td id="warningSeverityNumBase">73</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">225</td>
+							<td id="totalPatch">149 (76 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">149 (76 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">23 files with differences</td>
+							<td id="totalDiff">76 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">76 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumBase">73</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleStatisticsPatch">149 (76 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheckModuleNumDiff">76</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">76</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\ecjTransformer\lombok\ast\ecj\EcjTreeBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VISIBILITY_MASK&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L166">166</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PACKAGE_INFO&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L167">167</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;SILENT_PROBLEM_FACTORY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L231">231</a></td>
+								
+								
+									
+									<td class="keepWidth">46</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;UNARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L426">426</a></td>
+								
+								
+									
+									<td class="keepWidth">62</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;BINARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L438">438</a></td>
+								
+								
+									
+									<td class="keepWidth">63</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;GENERIC_JAVA_CLASS_SUFFIX&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L1911">1911</a></td>
+								
+								
+									
+									<td class="keepWidth">45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\ecjTransformer\lombok\ast\ecj\EcjTreeConverter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ASTNODE_ORDER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L154">154</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CASTEXPRESSION_TYPE_FIELD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1337">1337</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;UNARY_PREFIX_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1348">1348</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;UNARY_POSTFIX_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1353">1353</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;GENERIC_UNARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1359">1359</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;GENERIC_BINARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1367">1367</a></td>
+								
+								
+									
+									<td class="keepWidth">51</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ASSIGN_BINARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L1390">1390</a></td>
+								
+								
+									
+									<td class="keepWidth">51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\ecjTransformer\lombok\ast\ecj\EcjTreePrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;POSITION_FIELDNAMES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L56">56</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;KNOWN_PACKAGES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L298">298</a></td>
+								
+								
+									
+									<td class="keepWidth">52</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\ecjTransformer\lombok\ast\ecj\GenerateEcjTreeVisitorCode.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;COPYRIGHT_NOTICE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L43">43</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;EXTRA_TYPES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L75">75</a></td>
+								
+								
+									
+									<td class="keepWidth">41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\javacTransformer\lombok\ast\javac\JcTreeBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ENUM_CONSTANT_FLAGS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L437">437</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;UNARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L1388">1388</a></td>
+								
+								
+									
+									<td class="keepWidth">52</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;BINARY_OPERATORS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L1399">1399</a></td>
+								
+								
+									
+									<td class="keepWidth">53</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PRIMITIVES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L1432">1432</a></td>
+								
+								
+									
+									<td class="keepWidth">45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\javacTransformer\lombok\ast\javac\JcTreeConverter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;JCWILDCARD_KIND&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;JCTREE_TAG&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">53</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;JCTREE_GETTAG&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L195">195</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ENUM_CONSTANT_FLAGS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L600">600</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\javacTransformer\lombok\ast\javac\JcTreePrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;GET_TAG_METHOD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L107">107</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;TAG_FIELD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\IntegralLiteral.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;NEGATIVE_NUMBERS_NOT_POSSIBLE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L27">27</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;MAX_UNSIGNED_LONG&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L264">264</a></td>
+								
+								
+									
+									<td class="keepWidth">41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\Templates.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PRIMITIVE_NAMES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L632">632</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;REFLECT_MODIFIERS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L960">960</a></td>
+								
+								
+									
+									<td class="keepWidth">53</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;DEPRECATED_DETECTOR&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L1293">1293</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\Version.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VERSION&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L29">29</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\grammar\BasicsParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;KEYWORDS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L89">89</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\resolve\Resolver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;NUMERIC_PRIMITIVE_CLASSES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;PRIMITIVE_CLASS_MAP&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L110">110</a></td>
+								
+								
+									
+									<td class="keepWidth">44</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\main\lombok\ast\syntaxChecks\KeywordChecks.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_PUBLIC&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L53">53</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_PRIVATE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L54">54</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_PROTECTED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_STATIC&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L56">56</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_FINAL&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L57">57</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_SYNCHRONIZED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_VOLATILE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L59">59</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_TRANSIENT&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L60">60</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_NATIVE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L61">61</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_ABSTRACT&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L62">62</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;K_STRICTFP&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L63">63</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;METHOD_MODIFIERS_EXCLUSIVITY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L78">78</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;METHOD_MODIFIERS_LEGAL&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L90">90</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FIELD_MODIFIERS_EXCLUSIVITY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L95">95</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FIELD_MODIFIERS_LEGAL&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L102">102</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;TYPE_MODIFIERS_EXCLUSIVITY&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L105">105</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;TYPE_MODIFIERS_LEGAL&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L112">112</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\printer\lombok\ast\printer\HtmlFormatter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;OPENERS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CLOSERS&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">55</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;HTML_CLASS_SIGNIFICANT_NODE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L133">133</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\printer\lombok\ast\printer\StructureFormatter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;INDENT&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L40">40</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\printer\lombok\ast\printer\TextFormatter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;INDENT&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L33">33</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\src\template\lombok\ast\template\TemplateProcessor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;COUNT_FINDER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L65">65</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;DEFAULT_VALUES&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L945">945</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\resources\performance\extra166y\PAS.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;INSERTION_SORT_THRESHOLD&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L2306">2306</a></td>
+								
+								
+									
+									<td class="keepWidth">22</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;CUMULATE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L2658">2658</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;SUMMED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L2659">2659</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FINISHED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L2660">2660</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\src\lombok\ast\grammar\EcjCompilerTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;EXTENDED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L41">41</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\src\lombok\ast\grammar\PerformanceTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;VERBOSE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L60">60</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;EXTENDED&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L61">61</a></td>
+								
+								
+									
+									<td class="keepWidth">38</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;MAX_FACTOR&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L62">62</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\src\lombok\ast\grammar\PositionCheckingFormatter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;RANGE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L103">103</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\src\lombok\ast\grammar\RunForEachFileInDirRunner.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;FILE_SORTER&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L267">267</a></td>
+								
+								
+									
+									<td class="keepWidth">47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\lombok-ast\test\src\lombok\ast\resolve\TypesMatchTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;SIMPLE_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L36">36</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;METHOD_LOCAL_MASKING_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L60">60</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;INNER_MASKING_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L96">96</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;TOP_LEVEL_MASKING_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L120">120</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;ARRAYS_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L144">144</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A76" href = "#A76">#A76</a></td>
+								<td>warning</td>
+								<td>AbbreviationAsWordInName</td>
+								<td>Abbreviation in name &#39;IMPORTS_SOURCE&#39; must contain no more than &#39;4&#39; consecutive capital letters.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L173">173</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
