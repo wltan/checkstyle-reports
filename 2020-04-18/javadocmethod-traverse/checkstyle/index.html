@@ -1,0 +1,975 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">2176</td>
+							<td id="totalBase">652</td>
+							
+								<td id="warningSeverityNumBase">652</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">2176</td>
+							<td id="totalPatch">678 (26 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">678 (26 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">16 files with differences</td>
+							<td id="totalDiff">26 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">26 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumBase">652</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleStatisticsPatch">678 (26 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumDiff">26</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">26</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\it\java\com\google\checkstyle\test\base\AbstractGoogleModuleTestSupport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\it\java\com\sun\checkstyle\test\base\AbstractSunModuleTestSupport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L108">108</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\DetailNodeTreeStringPrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L68">68</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\JavaParser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L93">93</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\SuppressionsStringPrinter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L71">71</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\XMLLogger.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L86">86</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\ant\CheckstyleAntTask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;BuildException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L354">354</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;BuildException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L406">406</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;BuildException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L426">426</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;BuildException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L471">471</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\api\FileText.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L124">124</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\checks\SuppressWarningsHolder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L376">376</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L406">406</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\checks\imports\ImportOrderCheck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L959">959</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\checks\metrics\AbstractClassCouplingCheck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L166">166</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\checks\whitespace\NoWhitespaceAfterCheck.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L329">329</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\filters\SuppressWithPlainTextCommentFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L403">403</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L548">548</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\filters\XpathFilterElement.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L114">114</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L164">164</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L244">244</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\gui\ParseTreeTablePresentation.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L130">130</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L314">314</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L346">346</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\checkstyle\src\main\java\com\puppycrawl\tools\checkstyle\utils\JavadocUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L314">314</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L334">334</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

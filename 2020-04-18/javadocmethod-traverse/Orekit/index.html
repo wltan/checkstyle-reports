@@ -1,0 +1,1937 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">750</td>
+							<td id="totalBase">196</td>
+							
+								<td id="warningSeverityNumBase">196</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">750</td>
+							<td id="totalPatch">258 (62 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">258 (62 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">41 files with differences</td>
+							<td id="totalDiff">62 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">62 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumBase">196</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleStatisticsPatch">258 (62 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumDiff">62</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">62</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\bodies\JPLEphemeridesLoader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L392">392</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\estimation\EstimationUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L84">84</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\BoxAndSolarArraySpacecraft.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L210">210</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L339">339</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\drag\IsotropicDrag.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L83">83</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\CunninghamAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L122">122</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\DrozinerAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L120">120</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\HolmesFeatherstoneAttractionModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L135">135</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\NewtonianAttraction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L75">75</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\Relativity.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L84">84</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\gravity\ThirdBodyAttraction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L82">82</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\maneuvers\ConstantThrustManeuver.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L142">142</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\radiation\IsotropicRadiationCNES95Convention.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L113">113</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\radiation\IsotropicRadiationClassicalConvention.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L100">100</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\forces\radiation\IsotropicRadiationSingleCoefficient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L84">84</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\frames\EOPHistory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L180">180</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L225">225</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L264">264</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L292">292</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L320">320</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\frames\UpdatableFrame.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;FrameAncestorException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L154">154</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\models\earth\tessellation\EllipsoidTessellator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;NoSuchElementException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L819">819</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;UnsupportedOperationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L836">836</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\orbits\CartesianOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;MathIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L403">403</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;MathIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L458">458</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\orbits\CircularOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L123">123</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L143">143</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L173">173</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L193">193</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L226">226</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\orbits\EquinoctialOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L118">118</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L138">138</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L170">170</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\orbits\KeplerianOrbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L136">136</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L159">159</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;MathIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L498">498</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\orbits\Orbit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L366">366</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L414">414</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\propagation\analytical\AbstractAnalyticalPropagator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L433">433</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\propagation\conversion\TLEPropagatorBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L116">116</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\propagation\events\DateDetector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L166">166</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\propagation\events\EventState.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitExceptionWrapper&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L331">331</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\propagation\events\PositionAngleDetector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\time\DateComponents.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L189">189</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L261">261</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L318">318</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\time\Month.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File29.html#L183">183</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File29.html#L197">197</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\time\TimeComponents.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File30.html#L160">160</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File30.html#L217">217</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\AngularDerivativesFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File31.html#L70">70</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\CartesianDerivativesFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File32.html#L70">70</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\ElevationMask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File33.html#L102">102</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\GenericTimeStampedCache.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File34.html#L241">241</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File34.html#L260">260</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\TimeStampedAngularCoordinates.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File35.html#L338">338</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\TimeStampedFieldAngularCoordinates.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File36.html#L265">265</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\TimeStampedFieldPVCoordinates.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File37.html#L399">399</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\main\java\org\orekit\utils\TimeStampedPVCoordinates.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File38.html#L300">300</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\test\java\org\orekit\SolarInputs97to05.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File39.html#L93">93</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\test\java\org\orekit\bodies\SolarBodyTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;OrekitInternalError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File40.html#L444">444</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\Orekit\src\test\java\org\orekit\propagation\events\DateDetectorTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File41.html#L146">146</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,1636 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">752</td>
+							<td id="totalBase">3019</td>
+							
+								<td id="warningSeverityNumBase">3019</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">752</td>
+							<td id="totalPatch">3074 (55 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">3074 (55 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">28 files with differences</td>
+							<td id="totalDiff">55 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">55 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumBase">3019</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleStatisticsPatch">3074 (55 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumDiff">55</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">55</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\InstanceBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L604">604</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L635">635</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\MPPSBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L357">357</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\MWLItemBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L300">300</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\OtherPatientIDBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L124">124</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\PatientBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;NonUniquePatientException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L567">567</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L953">953</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\SeriesBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L847">847</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L891">891</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L914">914</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L938">938</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L979">979</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\StudyBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L673">673</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L699">699</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L722">722</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L746">746</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L763">763</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L793">793</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L819">819</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L847">847</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\entity\UPSBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L580">580</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\jdbc\QueryStudiesCmd.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L193">193</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\AttributesModificationBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L236">236</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\ConsistencyCheckBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L267">267</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\GPWLManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L188">188</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\MPPSManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L286">286</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L861">861</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\MWLManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L202">202</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L258">258</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\PrivateManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L492">492</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\SoundexUpdateBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L169">169</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L203">203</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L237">237</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L271">271</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L305">305</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L339">339</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L373">373</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-ejb\src\java\org\dcm4chex\archive\ejb\session\StudyPermissionManagerBean.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L186">186</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L263">263</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L279">279</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L295">295</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EJBException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L319">319</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-hl7\src\java\org\dcm4chex\archive\hl7\HL7SendService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L684">684</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IOException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L765">765</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;HL7Exception&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L775">775</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-rid\src\java\org\dcm4chex\rid\mbean\RIDSupport.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;UnsupportedOperationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L844">844</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-rid\src\java\org\dcm4chex\rid\mbean\ecg\WaveformGroup.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;NullPointerException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L76">76</a></td>
+								
+								
+									
+									<td class="keepWidth">47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-sar\src\java\org\dcm4chex\archive\mbean\KeyObjectService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L396">396</a></td>
+								
+								
+									
+									<td class="keepWidth">51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-sar\src\java\org\dcm4chex\archive\mbean\StudyReconciliationService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L437">437</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-sar\src\java\org\dcm4chex\archive\util\FileUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IOException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L118">118</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-wado\src\java\org\dcm4chex\wado\web\WADORequestObjectImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L354">354</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-web\src\java\org\dcm4chex\archive\web\maverick\FolderUtil.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L131">131</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-web\src\java\org\dcm4chex\archive\web\maverick\gppps\model\GPPPSModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L151">151</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-web\src\java\org\dcm4chex\archive\web\maverick\mpps\model\MPPSModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L156">156</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\nbia-dcm4che-tools\dcm4jboss-web\src\java\org\dcm4chex\archive\web\maverick\tf\SRManifestModel.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L208">208</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,4639 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">JavadocMethod</td>
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												validateThrows
+												
+													<li>true</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">4138</td>
+							<td id="totalBase">10173</td>
+							
+								<td id="warningSeverityNumBase">10173</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">4138</td>
+							<td id="totalPatch">10333 (160 added)</td>
+							
+								<td id="warningSeverityStatisticsPatch">10333 (160 added)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">115 files with differences</td>
+							<td id="totalDiff">160 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">160 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumBase">10173</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleStatisticsPatch">10333 (160 added)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheckModuleNumDiff">160</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">0</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">160</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\jsr166e\Striped64.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;NoSuchFieldError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L334">334</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File1.html#L337">337</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\apache\lucene\analysis\PrefixAnalyzer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File2.html#L101">101</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\apache\lucene\search\suggest\analyzing\XAnalyzingSuggester.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File3.html#L226">226</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\apache\lucene\search\suggest\analyzing\XFuzzySuggester.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File4.html#L161">161</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\ExceptionsHelper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File5.html#L153">153</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\Version.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File6.html#L483">483</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\cluster\repositories\put\PutRepositoryRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File7.html#L221">221</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\cluster\snapshots\create\CreateSnapshotRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File8.html#L386">386</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\cluster\snapshots\restore\RestoreSnapshotRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File9.html#L520">520</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\indices\alias\Alias.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchGenerationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L94">94</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchGenerationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L113">113</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File10.html#L190">190</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\indices\create\CreateIndexRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L251">251</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchGenerationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L276">276</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L379">379</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File11.html#L415">415</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\admin\indices\template\put\PutIndexTemplateRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchGenerationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L240">240</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L282">282</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File12.html#L302">302</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\index\IndexRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File13.html#L333">333</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\percolate\MultiPercolateRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File14.html#L128">128</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\support\DestructiveOperations.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File15.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\support\replication\ReplicationType.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File16.html#L80">80</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\termvector\TermVectorRequest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File17.html#L480">480</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\action\update\UpdateHelper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;DocumentMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L83">83</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L102">102</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;DocumentSourceMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File18.html#L147">147</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\cluster\metadata\MetaData.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L477">477</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexClosedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L704">704</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L867">867</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File19.html#L1008">1008</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\cluster\routing\MutableShardRouting.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalShardRoutingStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L130">130</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalShardRoutingStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File20.html#L141">141</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\cluster\routing\allocation\AllocationService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File21.html#L504">504</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\cluster\routing\allocation\command\AllocationCommands.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File22.html#L174">174</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\cluster\routing\operation\plain\Preference.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File23.html#L103">103</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\Base64.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File24.html#L1182">1182</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\Booleans.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File25.html#L99">99</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\RandomBasedUUIDGenerator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File26.html#L65">65</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\collect\HppcMaps.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;UnsupportedOperationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File27.html#L116">116</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\geo\GeoDistance.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File28.html#L202">202</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\geo\builders\BasePolygonBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;InvalidShapeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File29.html#L126">126</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;InvalidShapeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File29.html#L297">297</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\geo\builders\ShapeBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File30.html#L259">259</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;InvalidShapeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File30.html#L545">545</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\Initializer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File31.html#L107">107</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File31.html#L147">147</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\InjectorBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File32.html#L147">147</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File32.html#L211">211</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\InjectorImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ConfigurationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File33.html#L100">100</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\TypeConverterBindingProcessor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File34.html#L65">65</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\TypeLiteral.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File35.html#L99">99</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File35.html#L299">299</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File35.html#L327">327</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\assistedinject\FactoryProvider2.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ConfigurationException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File36.html#L129">129</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\internal\Join.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;JoinException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File37.html#L283">283</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\internal\MoreTypes.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File38.html#L334">334</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File38.html#L353">353</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\inject\internal\SourceProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File39.html#L79">79</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\io\Channels.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;EOFException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File40.html#L68">68</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\io\FastCharArrayReader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexOutOfBoundsException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File41.html#L123">123</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\joda\Joda.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File42.html#L48">48</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\lucene\Lucene.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;LockObtainFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File43.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File43.html#L156">156</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\lucene\search\MultiPhrasePrefixQuery.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File44.html#L100">100</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\lucene\search\function\RandomScoreFunction.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;NullPointerException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File45.html#L58">58</a></td>
+								
+								
+									
+									<td class="keepWidth">45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\settings\ImmutableSettings.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File46.html#L717">717</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;SettingsException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File46.html#L958">958</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\unit\DistanceUnit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File47.html#L236">236</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\util\BloomFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File48.html#L171">171</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\util\LocaleUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File49.html#L50">50</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\util\concurrent\BaseFuture.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File50.html#L302">302</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\common\xcontent\XContentFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File51.html#L114">114</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File51.html#L130">130</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A76" href = "#A76">#A76</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File51.html#L177">177</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A77" href = "#A77">#A77</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File51.html#L195">195</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\discovery\zen\ZenDiscovery.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A78" href = "#A78">#A78</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File52.html#L897">897</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\env\NodeEnvironment.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A79" href = "#A79">#A79</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File53.html#L278">278</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A80" href = "#A80">#A80</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File53.html#L649">649</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A81" href = "#A81">#A81</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File53.html#L706">706</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\gateway\local\state\meta\MetaDataStateFormat.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A82" href = "#A82">#A82</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File54.html#L300">300</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\aliases\IndexAliasesService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A83" href = "#A83">#A83</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;InvalidAliasNameException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File55.html#L93">93</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\analysis\WordDelimiterTokenFilterFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A84" href = "#A84">#A84</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File56.html#L122">122</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\get\GetResult.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A85" href = "#A85">#A85</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File57.html#L159">159</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\mapper\MapperService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A86" href = "#A86">#A86</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;TypeMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File58.html#L459">459</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A87" href = "#A87">#A87</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File58.html#L878">878</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\mapper\ParseContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A88" href = "#A88">#A88</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File59.html#L830">830</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\mapper\core\AbstractFieldMapper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A89" href = "#A89">#A89</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;MapperParsingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File60.html#L1109">1109</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\mapper\core\StringFieldMapper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A90" href = "#A90">#A90</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File61.html#L331">331</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\mapper\geo\GeoPointFieldMapper.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A91" href = "#A91">#A91</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File62.html#L275">275</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\query\QueryParserUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A92" href = "#A92">#A92</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;QueryParsingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File63.html#L44">44</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\query\RegexpFlag.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A93" href = "#A93">#A93</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File64.html#L131">131</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\search\shape\ShapeFetchService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A94" href = "#A94">#A94</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File65.html#L63">63</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A95" href = "#A95">#A95</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File65.html#L86">86</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\shard\IndexShard.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A96" href = "#A96">#A96</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File66.html#L865">865</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\similarity\AbstractSimilarityProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A97" href = "#A97">#A97</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File67.html#L76">76</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\similarity\DFRSimilarityProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A98" href = "#A98">#A98</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File68.html#L85">85</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A99" href = "#A99">#A99</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File68.html#L100">100</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\similarity\IBSimilarityProvider.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A100" href = "#A100">#A100</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File69.html#L79">79</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A101" href = "#A101">#A101</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File69.html#L94">94</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\snapshots\IndexShardSnapshotAndRestoreService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A102" href = "#A102">#A102</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardSnapshotFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File70.html#L71">71</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A103" href = "#A103">#A103</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardRestoreFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File70.html#L112">112</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\snapshots\blobstore\BlobStoreIndexShardRepository.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A104" href = "#A104">#A104</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardSnapshotException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File71.html#L286">286</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A105" href = "#A105">#A105</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardRestoreFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File71.html#L318">318</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A106" href = "#A106">#A106</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardSnapshotFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File71.html#L440">440</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A107" href = "#A107">#A107</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardRestoreFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File71.html#L716">716</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\snapshots\blobstore\BlobStoreIndexShardSnapshot.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A108" href = "#A108">#A108</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File72.html#L273">273</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A109" href = "#A109">#A109</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File72.html#L466">466</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\store\DistributorDirectory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A110" href = "#A110">#A110</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;FileNotFoundException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File73.html#L151">151</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\index\store\Store.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A111" href = "#A111">#A111</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;LockObtainFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File74.html#L260">260</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A112" href = "#A112">#A112</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;LockObtainFailedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File74.html#L570">570</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A113" href = "#A113">#A113</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File74.html#L586">586</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\indices\IndicesService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A114" href = "#A114">#A114</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File75.html#L545">545</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\indices\analysis\HunspellService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A115" href = "#A115">#A115</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File76.html#L158">158</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A116" href = "#A116">#A116</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File76.html#L224">224</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\indices\cluster\IndicesClusterStateService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A117" href = "#A117">#A117</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File77.html#L786">786</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\indices\recovery\RecoveriesCollection.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A118" href = "#A118">#A118</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardClosedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File78.html#L91">91</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\indices\recovery\RecoverySourceHandler.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A119" href = "#A119">#A119</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File79.html#L551">551</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A120" href = "#A120">#A120</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardClosedException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File79.html#L614">614</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\plugins\PluginsService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A121" href = "#A121">#A121</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File80.html#L147">147</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\repositories\RepositoriesService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A122" href = "#A122">#A122</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RepositoryException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File81.html#L410">410</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\repositories\fs\FsRepository.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A123" href = "#A123">#A123</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RepositoryException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File82.html#L75">75</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\repositories\uri\URLRepository.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A124" href = "#A124">#A124</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RepositoryException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File83.html#L71">71</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\script\ScriptService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A125" href = "#A125">#A125</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File84.html#L269">269</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\Aggregator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A126" href = "#A126">#A126</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;QueryPhaseExecutionException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File85.html#L196">196</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\AggregatorFactories.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A127" href = "#A127">#A127</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File86.html#L123">123</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\bucket\DeferringBucketCollector.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A128" href = "#A128">#A128</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;QueryPhaseExecutionException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File87.html#L112">112</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\bucket\histogram\InternalOrder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A129" href = "#A129">#A129</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File88.html#L112">112</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\bucket\range\ipv4\IPv4RangeBuilder.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A130" href = "#A130">#A130</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;SearchSourceBuilderException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File89.html#L66">66</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\bucket\significant\SignificantTermsAggregatorFactory.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A131" href = "#A131">#A131</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File90.html#L241">241</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\support\AggregationContext.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A132" href = "#A132">#A132</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AggregationExecutionException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File91.html#L133">133</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\aggregations\support\OrderPath.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A133" href = "#A133">#A133</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File92.html#L191">191</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A134" href = "#A134">#A134</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AggregationExecutionException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File92.html#L277">277</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\search\suggest\Suggest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A135" href = "#A135">#A135</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File93.html#L256">256</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\snapshots\SnapshotShardFailure.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A136" href = "#A136">#A136</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchParseException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File94.html#L203">203</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\snapshots\SnapshotUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A137" href = "#A137">#A137</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File95.html#L77">77</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\snapshots\SnapshotsService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A138" href = "#A138">#A138</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ConcurrentSnapshotExecutionException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File96.html#L185">185</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A139" href = "#A139">#A139</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RepositoryMissingException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File96.html#L228">228</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A140" href = "#A140">#A140</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;InvalidSnapshotNameException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File96.html#L231">231</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\main\java\org\elasticsearch\watcher\ResourceWatcherService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A141" href = "#A141">#A141</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchIllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File97.html#L137">137</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\index\store\CorruptedFileTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A142" href = "#A142">#A142</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IndexShardException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File98.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\index\store\ExceptionRetryTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A143" href = "#A143">#A143</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ConnectTransportException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File99.html#L89">89</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\indices\IndicesLifecycleListenerTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A144" href = "#A144">#A144</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File100.html#L122">122</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\indices\analysis\PreBuiltAnalyzerIntegrationTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A145" href = "#A145">#A145</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File101.html#L201">201</a></td>
+								
+								
+									
+									<td class="keepWidth">55</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\plugins\PluginManagerTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A146" href = "#A146">#A146</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IOException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File102.html#L143">143</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\recovery\TruncatedRecoveryTests.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A147" href = "#A147">#A147</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File103.html#L124">124</a></td>
+								
+								
+									
+									<td class="keepWidth">39</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\stresstest\search1\ParentChildStressTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A148" href = "#A148">#A148</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;RuntimeException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File104.html#L127">127</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\BackgroundIndexer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A149" href = "#A149">#A149</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File105.html#L155">155</a></td>
+								
+								
+									
+									<td class="keepWidth">51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\ElasticsearchIntegrationTest.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A150" href = "#A150">#A150</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalStateException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File106.html#L1937">1937</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\ElasticsearchTestCase.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A151" href = "#A151">#A151</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File107.html#L371">371</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\InternalTestCluster.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A152" href = "#A152">#A152</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File108.html#L499">499</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\geo\RandomShapeGenerator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A153" href = "#A153">#A153</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ElasticsearchException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File109.html#L219">219</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\hamcrest\ElasticsearchAssertions.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A154" href = "#A154">#A154</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;AssertionError&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File110.html#L540">540</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\rest\Stash.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A155" href = "#A155">#A155</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File111.html#L81">81</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\rest\client\RestClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A156" href = "#A156">#A156</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File112.html#L121">121</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\rest\spec\RestApi.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A157" href = "#A157">#A157</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File113.html#L138">138</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\rest\support\VersionUtils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A158" href = "#A158">#A158</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File114.html#L40">40</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A159" href = "#A159">#A159</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;IllegalArgumentException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File114.html#L56">56</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>E:\checkstyle\contribution\checkstyle-tester\repositories\elasticsearch\src\test\java\org\elasticsearch\test\transport\MockTransportService.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="a">
+							
+								<td class="keepWidth"><a name="A160" href = "#A160">#A160</a></td>
+								<td>warning</td>
+								<td>JavadocMethod</td>
+								<td>Expected @throws tag for &#39;ConnectTransportException&#39;.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref\File115.html#L190">190</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
