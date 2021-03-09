@@ -18,8 +18,9 @@
     </module>
 
     <module name="TreeWalker">
-		<module name="JavadocMethod">
-      <property name="validateThrows" value="true"/>
+      <module name="JavadocMethod">
+        <property name="validateThrows" value="true"/>
+      </module>
     </module>
     <!-- Example of filter -->
     <!--
